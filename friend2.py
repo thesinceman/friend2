@@ -13,12 +13,14 @@ talk6 = ['...', 'i really REALLLLY love cheese', 'cope', 'also', 'i am going to 
 psr_list = ['paper', 'scissors', 'rock']
 x = True
 while x:
-
-	starting_choice = input('\nhello logan what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
-	if starting_choice == '2':
+        os.system('clear')
+        time.sleep(0.5)
+        starting_choice = input('\nhello logan what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
+        if starting_choice == '2':
                 os.system('clear')
                 talkin = True
                 while talkin:
+                    os.system('clear')
                     print(random.choice(talk))
                     input(':')
                     print(random.choice(talk2))
@@ -35,35 +37,41 @@ while x:
                         talkin = True
                     else:
                         talkin = False
-	elif starting_choice == '1':
-		os.system('clear')
-		psr = True
-		while psr:
-				choice = input('e to exit\npaper, scissors or rock?: ')
-				if choice == 'paper':
-					if (random.choice(psr_list)) == 'paper':
-						print('its a tie')
-					elif (random.choice(psr_list)) == 'rock':
-						print('i got rock, dam')
-					else:
-						print('HAH i win :D')
-				elif choice == 'scissors':
-					if (random.choice(psr_list)) == 'paper':
-						print('dam you win')
-					elif (random.choice(psr_list)) == 'scissors':
-						print('its a dual then')
-					else:
-						print('HAHA i win :)')
-				elif choice == 'rock':
-					if (random.choice(psr_list)) == 'paper':
-						print('I WIN heheheha')
-					elif (random.choice(psr_list)) == 'scissors':
-						print('you win :(')
-					else:
-						print('well well well its a tie')
-				elif choice == 'e':
-					psr = False
-				else:
-					print('sorry thats not an option')
-	elif starting_choice == 'e':
-	    x = False
+        elif starting_choice == '1':
+                os.system('clear')
+                psr = True
+                while psr:
+                                choice = input('e to exit\npaper, scissors or rock?: ')
+                                if choice == 'paper':
+                                        if (random.choice(psr_list)) == 'paper':
+                                                print('paper\nits a tie')
+                                        elif (random.choice(psr_list)) == 'rock':
+                                                print('rock\ni got rock, dam')
+                                        else:
+                                                print('scissors\nHAH i win :D')
+                                elif choice == 'scissors':
+                                        if (random.choice(psr_list)) == 'paper':
+                                                print('paper\ndam you win')
+                                        elif (random.choice(psr_list)) == 'scissors':
+                                                print('scissors\nits a dual then')
+                                        else:
+                                                print('rock\nHAHA i win :)')
+                                elif choice == 'rock':
+                                        if (random.choice(psr_list)) == 'paper':
+                                                print('rock\nI WIN heheheha')
+                                        elif (random.choice(psr_list)) == 'scissors':
+                                                print('scissors\nyou win :(')
+                                        else:
+                                                print('rock\nwell well well its a tie')
+                                elif choice == 'e':
+                                        psr = False
+                                else:
+                                        print('sorry thats not an option')
+
+        elif starting_choice == '3':
+            print('im working on it check dev branch code to see')
+        elif starting_choice == 'e':
+            x = False
+        else:
+            print('sorry thats not an option')
+            time.sleep(3)
