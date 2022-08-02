@@ -13,29 +13,9 @@ talk6 = ['...', 'i really REALLLLY love cheese', 'cope', 'also', 'i am going to 
 psr_list = ['paper', 'scissors', 'rock']
 x = True
 while x:
-
 	starting_choice = input('\nhello logan what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
-	if starting_choice == '2':
-                os.system('clear')
-                talkin = True
-                while talkin:
-                    print(random.choice(talk))
-                    input(':')
-                    print(random.choice(talk2))
-                    input(':')
-                    print(random.choice(talk3))
-                    input(':')
-                    print(random.choice(talk4))
-                    input(':')
-                    print(random.choice(talk5))
-                    input(':')
-                    print(random.choice(talk6))
-                    again_talk = input('talk again? y/n: ')
-                    if again_talk == 'y':
-                        talkin = True
-                    else:
-                        talkin = False
-	elif starting_choice == '1':
+
+	if starting_choice == '1':
 		os.system('clear')
 		psr = True
 		while psr:
@@ -65,5 +45,4 @@ while x:
 					psr = False
 				else:
 					print('sorry thats not an option')
-	elif starting_choice == 'e':
-	    x = False
+        
