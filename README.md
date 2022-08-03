@@ -73,5 +73,5 @@ cd friend2
 ```
 run the program
 ```
-python3 friend.py
+python3 friend2.py
 ```
