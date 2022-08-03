@@ -10,7 +10,7 @@ this is a small project because me and a fellow comrade were board and wanted a 
 
 ## features
 
-### **current fetures**
+### **current features**
 a working paper scissors rock game (UI needs work)
 
 a partly working chat system that randomly takes sentences from a list and displays them (most involve violence)
