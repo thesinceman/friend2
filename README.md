@@ -54,3 +54,7 @@ run the program
 ```
 python3 friend2.py
 ```
+### fedora
+```
+sudo dnf install python3
+```
