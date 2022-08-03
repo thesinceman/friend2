@@ -1,9 +1,11 @@
 # friend2
-a small python project that works in the linux terminal
 
-# instalation
+**NOTE THIS IS STILL IN EARLY DEVELOPMENT AND IT MAY BREAK OR NOT WORK AS WELL WITH EACH PUSH**
+**THIS IS *NOT* MENT TO BE USED YET**
 
-# arch
+## instalation
+
+### arch
 
 install python3 (if you dont already have it)
 ```
@@ -30,7 +32,7 @@ run the program
 python3 friend2.py
 ```
 
-# debian
+### debian
 
 install python3 (if you dont already have it)
 ```
