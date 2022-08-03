@@ -54,7 +54,20 @@ run the program
 ```
 python3 friend2.py
 ```
-### fedora
+### fedora (untested)
+install python3 (if you dont already have it)
 ```
 sudo dnf install python3
+```
+install git (if you dont already have it)
+```
+sudo dnf install git
+```
+cd into repository 
+```
+cd friend2
+```
+run the program
+```
+python3 friend.py
 ```
