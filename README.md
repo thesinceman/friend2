@@ -1,4 +1,5 @@
 ***THIS WAS MADE WITH LINUX IN MIND AND MAY NOT WORK ON WINDOWS AND MACOS/ OSX***
+
 ***this requires an internet connection due to a random word libary and offline version will be created in later development***
 # friend2
 
