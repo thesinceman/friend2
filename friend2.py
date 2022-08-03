@@ -15,7 +15,7 @@ x = True
 while x:
         os.system('clear')
         time.sleep(0.5)
-        starting_choice = input('\nhello logan what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
+        starting_choice = input('\nhello what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
         if starting_choice == '2':
                 os.system('clear')
                 talkin = True
@@ -69,7 +69,9 @@ while x:
                                         print('sorry thats not an option')
 
         elif starting_choice == '3':
-            print('im working on it check dev branch code to see')
+            os.system('clear')
+            print('im working on it')
+            time.sleep(3)
         elif starting_choice == 'e':
             x = False
         else:
