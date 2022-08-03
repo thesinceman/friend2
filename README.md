@@ -4,11 +4,11 @@
 **THIS IS *NOT* MENT TO BE USED YET**
 
 ## instalation
-[arch](arch)
+[arch](#arch)
 
-[debian](debian)
+[debian](#debian)
 
-[fedora (untested)](fedora(untested))
+[fedora(untested)](#fedorauntested)
 ### arch
 
 install python3 (if you dont already have it)
@@ -58,7 +58,7 @@ run the program
 ```
 python3 friend2.py
 ```
-### fedora (untested)
+### fedora(untested)
 install python3 (if you dont already have it)
 ```
 sudo dnf install python3
