@@ -3,19 +3,19 @@
 # friend2
 
 **NOTE THIS IS STILL IN EARLY DEVELOPMENT AND IT MAY BREAK OR NOT WORK AS WELL WITH EACH PUSH**
-**THIS IS *NOT* MENT TO BE USED YET**
+**THIS IS *NOT* MEANT TO BE USED YET**
 
 ## what is this
 this is a small project because me and a fellow comrade were board and wanted a friend
 
-## fetures
+## features
 
 ### **current fetures**
 a working paper scissors rock game (UI needs work)
 
 a partly working chat system that randomly takes sentences from a list and displays them (most involve violence)
 
-### **in developement**
+### **in development**
 the above stated fetures
 
 hang-man game (or somthing similar)
@@ -24,7 +24,7 @@ an even more random conversation generator
 
 an improved UI
 
-## instalation
+## installation
 [arch](#arch)
 
 [debian](#debian)
