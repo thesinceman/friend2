@@ -1,6 +1,8 @@
 import time
 import os
 import random
+from random_word import RandomWords
+r = RandomWords()
 talk = ['...', 'help', 'hello', 'how is your day', 'i hope you perish in a house fire', '11', '000000001', 'i hope you fall over and can no longer move and then you starve to death because noone comes to save you', 'i like cheese', 'i like your shoes\nand i hope you perish in a house fire']
 talk2 = ['...', 'i hate you', 'i love you', 'good bye i hope you burn for all you have done to me you sick sick son of a-', '1', 'kys', 'bye <3', 'amazing voice (i watch you sleep)', 'i hope a bird eats your dog', 'and']
 talk3 = ['...', 'i want to see you bleed out on the ground', 'marry me', 'i hope you get crushed by a bolder but continue living for 2 hours after', 'omg ily sm', 'im gonna frame you for murder<3', 'i ate your dog', 'i would commit 7 war crimes to be with you<3']
@@ -13,7 +15,7 @@ x = True
 while x:
         os.system('clear')
         time.sleep(0.5)
-        starting_choice = input('\nhello what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\ne) exit\n1,2,3 or e: ')
+        starting_choice = input('\nhello what do you want to do today?\n1)play paper scissors rock?\n2)have a convosation?\n3)play hang man\n4)random words\ne)exit\n1,2,3 or e: ')
         if starting_choice == '2':
                 os.system('clear')
                 talkin = True
@@ -35,6 +37,10 @@ while x:
                         talkin = True
                     else:
                         talkin = False
+        elif starting_choice == '4':
+            os.system('clear')
+            print('im working on it')
+            time.sleep(3)
         elif starting_choice == '1':
                 os.system('clear')
                 psr = True
