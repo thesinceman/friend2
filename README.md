@@ -29,7 +29,7 @@ an improved UI
 
 [debian](#debian)
 
-[fedora(untested)](#fedorauntested)
+[fedora (untested)](#fedorauntested)
 ### arch
 
 install python3 (if you dont already have it)
