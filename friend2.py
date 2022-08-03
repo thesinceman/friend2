@@ -8,7 +8,7 @@ talk2 = ['...', 'i hate you', 'i love you', 'good bye i hope you burn for all yo
 talk3 = ['...', 'i want to see you bleed out on the ground', 'marry me', 'i hope you get crushed by a bolder but continue living for 2 hours after', 'omg ily sm', 'im gonna frame you for murder<3', 'i ate your dog', 'i would commit 7 war crimes to be with you<3']
 talk4 = ['...', 'wanna know what human flesh tastes like', 'i have 13 people held hostage', '5040', 'your a big bad bad', 'have an amazing day', 'im gonna beat you to death with a fish', 'i wrote you a song\nkys do dod odododoooo']
 talk5 = ['...', 'i will give you my entire networth($1mill)', 'your mum', 'i put a bomb in your dog', 'your good @ minecraft', 'check your mailbox ;)']
-talk6 = ['...', 'i really REALLLLY love cheese', 'cope', 'also', 'i am going to deleate myself if you ever type to me again', 'chocolate', '-45 -your iq']
+talk6 = ['...', 'i really REALLLLY love cheese', 'cope', 'also', 'i am going to deleate myself if you ever type to me again', 'chocolate', '-45 is your iq']
 
 psr_list = ['paper', 'scissors', 'rock']
 x = True
@@ -41,6 +41,8 @@ while x:
                 os.system('clear')
                 psr = True
                 while psr:
+                                time.sleep(1)
+                                os.system('clear')
                                 choice = input('e to exit\npaper, scissors or rock?: ')
                                 if choice == 'paper':
                                         if (random.choice(psr_list)) == 'paper':
