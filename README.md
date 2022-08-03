@@ -4,7 +4,11 @@
 **THIS IS *NOT* MENT TO BE USED YET**
 
 ## instalation
+[arch](arch)
 
+[debian](debian)
+
+[fedora (untested)](fedora(untested))
 ### arch
 
 install python3 (if you dont already have it)
