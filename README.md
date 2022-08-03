@@ -1,5 +1,5 @@
 ***THIS WAS MADE WITH LINUX IN MIND AND MAY NOT WORK ON WINDOWS AND MACOS/ OSX***
-
+***this requires an internet connection due to a random word libary and offline version will be created in later development***
 # friend2
 
 **NOTE THIS IS STILL IN EARLY DEVELOPMENT AND IT MAY BREAK OR NOT WORK AS WELL WITH EACH PUSH**
@@ -25,6 +25,8 @@ an even more random conversation generator
 an improved UI
 
 ## installation
+**this requires the Random-word python libary which the install will be showen in each disrto install guide**
+
 [arch](#arch)
 
 [debian](#debian)
@@ -40,9 +42,13 @@ install git (if you dont already have it)
 ```
 sudo pacman -S git
 ```
-(optinal) update your system
+install pip (if you dont already have it)
 ```
-sudo pacman -Syu
+sudo pacman -S python3-pip
+```
+install the reqiured python libary 
+```
+pip install random-word
 ```
 clone the repository 
 ```
@@ -67,6 +73,14 @@ install git (if you dont already have it)
 ```
 sudo apt install git
 ```
+install pip (if you dont already have it)
+```
+sudo apt install python3-pip
+```
+install required python libary
+```
+pip install random-word
+```
 clone the repository
 ```
 git clone https://github.com/thesinceman/friend2
@@ -87,6 +101,14 @@ sudo dnf install python3
 install git (if you dont already have it)
 ```
 sudo dnf install git
+```
+install pip (if you dont already have it)
+```
+sudo dnf install python3-pip
+```
+install required python libary 
+```
+pip install random-word
 ```
 cd into repository 
 ```
