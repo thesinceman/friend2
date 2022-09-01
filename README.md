@@ -25,8 +25,12 @@ an even more random conversation generator
 
 an improved UI
 
+moving codebase to rust?
+
 ## installation
 **this requires the Random-word python libary which the install will be showen in each disrto install guide**
+
+*ALL SUDO COMMANDS REQUIRE ROOT*
 
 [arch](#arch)
 
