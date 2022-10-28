@@ -25,7 +25,7 @@ an even more random conversation generator
 
 an improved UI
 
-moving codebase to rust?
+moving codebase to ~~rust?~~ c++
 
 ## installation
 **this requires the Random-word python libary which the install will be showen in each disrto install guide**
